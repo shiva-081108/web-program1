@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//draw a dices and find the lucky number
+//dice -from 1 to 6
+let lucky =Math.floor( Math.random() * 6)+1
+//console.log(lucky)
+while(true){
+
+    //winning condition
+    guess = prompt("enter your number between 1 to 6")
+    if(lucky=guess){
+        alert("you won the game")
+        break;
+
+    }else{
+        alert("better luck next time")
+    }
+}
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

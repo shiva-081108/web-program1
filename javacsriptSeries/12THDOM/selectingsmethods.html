@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <P id="myp">hello guys welcome to js dom</P>
+    <div class="box">this is div with 0 balls</div>
+    <div class="box">this is div with 1 balls</div>
+    <p> this is second paragraph tag</p>
+
+    <div class="abc" id="xyz">good morning</div>  
+        <div class="abc">gools liek love</div>
+
+
+    <script>
+ const paragraphTag   =   document.getElementById("myp")
+console.log(paragraphTag)
+
+ const  container =  document.getElementsByClassName("box")
+console.log(container)
+console.log(container[1])
+
+
+
+
+const para = document.getElementsByTagName("p")
+console.log(para)
+
+
+//query selectors()--> it follows css selector rule : #Idname,.className,
+
+const box = document.querySelector(".abc")
+console.log(box)
+
+//queryselectorAll-->all the elements/tag
+const boxes = document.querySelectorAll(".abc")
+console.log(boxes)
+console.log(boxes[1])
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input placeholder="search" id="myinput">
+     <div id="abc" style="height:200px;width:200px;background-color:aqua;"></div>
+    <script>
+
+const input=document.getElementById("myinput")
+//input.addEventListener('change',function(y){
+//console.log('value of input',y.target.value)
+
+const box=document.getElementById("abc")
+
+//})
+box.addEventListener('mouseover',function(){
+    box.style.background="red"
+})
+
+box.addEventListener('mouseout',function(){
+    box.style.background="red"
+})
+
+    </script>
+    
+</body>
+</html>

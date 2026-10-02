@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//CALLBACK HELL  
+
+
+
+function first(status,callback){
+    console.log("order confirmed" + status)
+
+callback("pizza",function(){
+    console.log("out for delivery")
+})
+
+
+}
+first("order no 123", function(status2,callback){
+    console.log("preparing items",status2)
+    callback()
+
+})
+
+    </script>
+    
+</body>
+</html>

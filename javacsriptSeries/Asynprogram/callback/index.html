@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+//CALL BACK- call BACK IS A FUNCTION PASSED AS AN ARGUMENT TO ANOTHER FUNCTION
+// call back function is executed after the exceution of another function
+function  DoHomework(subject,callback){
+
+    console.log(`starting my home work on ${subject}`)
+    callback()
+
+}
+
+DoHomework("math",function(){
+    console.log("i have done my home work")
+})
+
+
+    </script>
+    
+</body>
+</html>

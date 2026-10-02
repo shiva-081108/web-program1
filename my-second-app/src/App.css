@@ -1,0 +1,13 @@
+.head{
+    color:blue;
+    text-align:center;
+    font-family:Arial;
+background-color:lime;
+}
+.app{
+    border:1px solid black;
+    border-radius:10px;
+    padding:12px;
+    margin:12px;
+    background-color:magenta
+}
